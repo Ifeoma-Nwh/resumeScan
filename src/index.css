@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+
+  input,
+  textarea,
+  select {
+    @apply caret-emerald-700;
+  }
+
+  ::selection {
+    @apply bg-emerald-200 text-slate-900;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-emerald-700;
+  }
+}

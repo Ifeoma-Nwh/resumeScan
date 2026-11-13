@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-10T11:30:29+01:00",
+  "title": "Design System: resumeScan",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Verification Green",
+        "canonical": "#047857",
+        "tonalRamp": ["#064e3b", "#047857", "#10b981", "#34d399", "#6ee7b7", "#a7f3d0", "#d1fae5", "#ecfdf5"]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Verification Green Deep",
+        "canonical": "#065f46",
+        "tonalRamp": ["#064e3b", "#065f46", "#047857", "#10b981", "#34d399", "#6ee7b7", "#d1fae5", "#ecfdf5"]
+      },
+      "accent-focus": {
+        "role": "secondary",
+        "displayName": "Focus Green",
+        "canonical": "#059669",
+        "tonalRamp": ["#064e3b", "#047857", "#059669", "#10b981", "#34d399", "#6ee7b7", "#d1fae5", "#ecfdf5"]
+      },
+      "positive": {
+        "role": "secondary",
+        "displayName": "Signal Green",
+        "canonical": "#10b981",
+        "tonalRamp": ["#064e3b", "#047857", "#10b981", "#34d399", "#6ee7b7", "#a7f3d0", "#d1fae5", "#ecfdf5"]
+      },
+      "surface-page": {
+        "role": "neutral",
+        "displayName": "Page Slate",
+        "canonical": "#f8fafc",
+        "tonalRamp": ["#0f172a", "#334155", "#64748b", "#94a3b8", "#cbd5e1", "#e2e8f0", "#f1f5f9", "#f8fafc"]
+      },
+      "surface-raised": {
+        "role": "neutral",
+        "displayName": "Raised White",
+        "canonical": "#ffffff",
+        "tonalRamp": ["#0f172a", "#334155", "#64748b", "#94a3b8", "#cbd5e1", "#e2e8f0", "#f1f5f9", "#ffffff"]
+      },
+      "surface-muted": {
+        "role": "neutral",
+        "displayName": "Muted Slate",
+        "canonical": "#f1f5f9",
+        "tonalRamp": ["#0f172a", "#334155", "#64748b", "#94a3b8", "#cbd5e1", "#e2e8f0", "#f1f5f9", "#f8fafc"]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Hairline Slate",
+        "canonical": "#e2e8f0",
+        "tonalRamp": ["#0f172a", "#334155", "#64748b", "#94a3b8", "#cbd5e1", "#e2e8f0", "#f1f5f9", "#f8fafc"]
+      },
+      "border-strong": {
+        "role": "neutral",
+        "displayName": "Strong Hairline",
+        "canonical": "#cbd5e1",
+        "tonalRamp": ["#0f172a", "#334155", "#64748b", "#94a3b8", "#cbd5e1", "#e2e8f0", "#f1f5f9", "#f8fafc"]
+      },
+      "text-primary": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#0f172a",
+        "tonalRamp": ["#0f172a", "#1e293b", "#334155", "#475569", "#64748b", "#94a3b8", "#cbd5e1", "#e2e8f0"]
+      },
+      "text-secondary": {
+        "role": "neutral",
+        "displayName": "Body Slate",
+        "canonical": "#475569",
+        "tonalRamp": ["#0f172a", "#334155", "#475569", "#64748b", "#94a3b8", "#cbd5e1", "#e2e8f0", "#f1f5f9"]
+      },
+      "text-muted": {
+        "role": "neutral",
+        "displayName": "Quiet Slate",
+        "canonical": "#64748b",
+        "tonalRamp": ["#0f172a", "#334155", "#475569", "#64748b", "#94a3b8", "#cbd5e1", "#e2e8f0", "#f1f5f9"]
+      },
+      "danger-surface": {
+        "role": "tertiary",
+        "displayName": "Error Wash",
+        "canonical": "#fff1f2",
+        "tonalRamp": ["#881337", "#9f1239", "#be123c", "#f43f5e", "#fb7185", "#fecdd3", "#ffe4e6", "#fff1f2"]
+      },
+      "danger-border": {
+        "role": "tertiary",
+        "displayName": "Error Edge",
+        "canonical": "#fecdd3",
+        "tonalRamp": ["#881337", "#9f1239", "#be123c", "#e11d48", "#fb7185", "#fecdd3", "#ffe4e6", "#fff1f2"]
+      },
+      "danger-text": {
+        "role": "tertiary",
+        "displayName": "Error Ink",
+        "canonical": "#881337",
+        "tonalRamp": ["#881337", "#9f1239", "#be123c", "#e11d48", "#f43f5e", "#fb7185", "#fecdd3", "#fff1f2"]
+      },
+      "danger": {
+        "role": "tertiary",
+        "displayName": "Needs-Work Rose",
+        "canonical": "#f43f5e",
+        "tonalRamp": ["#881337", "#9f1239", "#be123c", "#e11d48", "#f43f5e", "#fb7185", "#fecdd3", "#fff1f2"]
+      },
+      "warning-surface": {
+        "role": "tertiary",
+        "displayName": "Warning Wash",
+        "canonical": "#fffbeb",
+        "tonalRamp": ["#78350f", "#92400e", "#b45309", "#f59e0b", "#fbbf24", "#fde68a", "#fef3c7", "#fffbeb"]
+      },
+      "warning-border": {
+        "role": "tertiary",
+        "displayName": "Warning Edge",
+        "canonical": "#fde68a",
+        "tonalRamp": ["#78350f", "#92400e", "#b45309", "#d97706", "#fbbf24", "#fde68a", "#fef3c7", "#fffbeb"]
+      },
+      "warning-text": {
+        "role": "tertiary",
+        "displayName": "Warning Ink",
+        "canonical": "#78350f",
+        "tonalRamp": ["#78350f", "#92400e", "#b45309", "#d97706", "#f59e0b", "#fbbf24", "#fde68a", "#fffbeb"]
+      },
+      "warning": {
+        "role": "tertiary",
+        "displayName": "Tailoring Amber",
+        "canonical": "#f59e0b",
+        "tonalRamp": ["#78350f", "#92400e", "#b45309", "#d97706", "#f59e0b", "#fbbf24", "#fde68a", "#fffbeb"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Score Display",
+        "purpose": "The score numeral inside the ring, and nothing else."
+      },
+      "title": {
+        "displayName": "Panel Title",
+        "purpose": "Panel headers and the product name."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Field values, hints, suggestions, and panel copy."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Counters, badge text, and inline metadata."
+      },
+      "micro": {
+        "displayName": "Micro",
+        "purpose": "Importance and category inside keyword chips."
+      }
+    },
+    "shadows": [
+      {
+        "name": "modal-lift",
+        "value": "0 25px 50px -12px rgba(15, 23, 42, 0.25)",
+        "purpose": "The settings dialog only. No other surface carries a shadow."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The score ring draw on first render, 700ms."
+      },
+      {
+        "name": "ease-standard",
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Color transitions on hover and focus, 150ms."
+      },
+      {
+        "name": "pulse",
+        "value": "cubic-bezier(0.4, 0, 0.6, 1)",
+        "purpose": "Loading skeleton opacity pulse, 2s infinite."
+      }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" },
+      { "name": "2xl", "value": "1536px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one commit action, such as Analyze resume or Save. Solid green, white semibold text.",
+      "html": "<button class=\"ds-btn-primary\">Analyze resume</button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-width:176px;padding:10px 20px;border:none;border-radius:12px;background:#047857;color:#ffffff;font-family:ui-sans-serif,system-ui,sans-serif;font-size:14px;font-weight:600;line-height:1.25;cursor:pointer;transition:background-color 150ms cubic-bezier(0.4,0,0.2,1);}.ds-btn-primary:hover{background:#065f46;}.ds-btn-primary:focus-visible{outline:2px solid #0f172a;outline-offset:2px;}.ds-btn-primary:disabled{opacity:.5;cursor:not-allowed;}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Backing action in a dialog or panel, such as Cancel. White surface with a hairline border.",
+      "html": "<button class=\"ds-btn-secondary\">Cancel</button>",
+      "css": ".ds-btn-secondary{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:8px 16px;border:1px solid #e2e8f0;border-radius:12px;background:#ffffff;color:#334155;font-family:ui-sans-serif,system-ui,sans-serif;font-size:14px;font-weight:500;line-height:1.4;cursor:pointer;transition:background-color 150ms cubic-bezier(0.4,0,0.2,1),border-color 150ms cubic-bezier(0.4,0,0.2,1);}.ds-btn-secondary:hover{background:#f8fafc;border-color:#cbd5e1;}.ds-btn-secondary:focus-visible{outline:2px solid #047857;outline-offset:2px;}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Single line input for the API key and the model picker. Border shifts to focus green.",
+      "html": "<input class=\"ds-input\" type=\"text\" placeholder=\"sk-or-v1-...\" aria-label=\"OpenRouter API key\" />",
+      "css": ".ds-input{width:100%;padding:10px 14px;border:1px solid #e2e8f0;border-radius:12px;background:#ffffff;color:#1e293b;font-family:ui-sans-serif,system-ui,sans-serif;font-size:14px;line-height:1.5;transition:border-color 150ms cubic-bezier(0.4,0,0.2,1);}.ds-input::placeholder{color:#64748b;}.ds-input:hover{border-color:#cbd5e1;}.ds-input:focus{border-color:#059669;outline:none;box-shadow:none;}.ds-input:focus-visible{outline:2px solid #047857;outline-offset:2px;}"
+    },
+    {
+      "name": "Textarea Field",
+      "kind": "input",
+      "description": "Paste-friendly multi-line input for the resume sections, with relaxed line height and vertical resize.",
+      "html": "<textarea class=\"ds-textarea\" rows=\"4\" aria-label=\"Work experience\" placeholder=\"Senior Developer, Acme Corp, 2021 to present...\"></textarea>",
+      "css": ".ds-textarea{width:100%;min-height:96px;padding:12px 14px;border:1px solid #e2e8f0;border-radius:12px;background:#ffffff;color:#1e293b;font-family:ui-sans-serif,system-ui,sans-serif;font-size:14px;line-height:1.625;resize:vertical;transition:border-color 150ms cubic-bezier(0.4,0,0.2,1);}.ds-textarea::placeholder{color:#64748b;}.ds-textarea:hover{border-color:#cbd5e1;}.ds-textarea:focus{border-color:#059669;outline:none;box-shadow:none;}.ds-textarea:focus-visible{outline:2px solid #047857;outline-offset:2px;}"
+    },
+    {
+      "name": "Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "The form and results container: white, flat, hairline border, 16px radius, 24px padding.",
+      "html": "<section class=\"ds-panel\"><h2 class=\"ds-panel-title\">Results</h2><p class=\"ds-panel-body\">Fill in the form and run an analysis to see your score.</p></section>",
+      "css": ".ds-panel{background:#ffffff;border:1px solid #e2e8f0;border-radius:16px;padding:24px;font-family:ui-sans-serif,system-ui,sans-serif;}.ds-panel-title{margin:0 0 4px;color:#0f172a;font-size:16px;font-weight:600;line-height:1.5;}.ds-panel-body{margin:0;color:#64748b;font-size:14px;line-height:1.625;}"
+    },
+    {
+      "name": "Missing Keyword Chip (Required)",
+      "kind": "chip",
+      "refersTo": "chip-missing-required",
+      "description": "A required keyword the resume misses. Rose surface with an 11px importance and category line.",
+      "html": "<span class=\"ds-chip ds-chip-required\">Kubernetes <span class=\"ds-chip-meta\">Required · Hard</span></span>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border:1px solid #fecdd3;border-radius:9999px;background:#fff1f2;color:#881337;font-family:ui-sans-serif,system-ui,sans-serif;font-size:14px;font-weight:500;line-height:1.4;}.ds-chip-meta{font-size:11px;font-weight:400;color:#be123c;}"
+    },
+    {
+      "name": "Missing Keyword Chip (Preferred)",
+      "kind": "chip",
+      "refersTo": "chip-missing-preferred",
+      "description": "A preferred keyword the resume misses. Amber surface, same shape as the required chip.",
+      "html": "<span class=\"ds-chip ds-chip-preferred\">GraphQL <span class=\"ds-chip-meta\">Preferred · Hard</span></span>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border:1px solid #fde68a;border-radius:9999px;background:#fffbeb;color:#78350f;font-family:ui-sans-serif,system-ui,sans-serif;font-size:14px;font-weight:500;line-height:1.4;}.ds-chip-meta{font-size:11px;font-weight:400;color:#b45309;}"
+    },
+    {
+      "name": "Matched Keyword Chip",
+      "kind": "chip",
+      "refersTo": "chip-matched",
+      "description": "A keyword found in the resume. Muted slate surface with a small signal green check.",
+      "html": "<span class=\"ds-chip ds-chip-matched\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"ds-chip-icon\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"></path></svg>React</span>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border:1px solid #e2e8f0;border-radius:9999px;background:#f1f5f9;color:#475569;font-family:ui-sans-serif,system-ui,sans-serif;font-size:14px;font-weight:400;line-height:1.4;}.ds-chip-icon{width:14px;height:14px;flex-shrink:0;color:#059669;}"
+    },
+    {
+      "name": "Section Label",
+      "kind": "custom",
+      "description": "Uppercase results heading with a count. The only uppercase text in the system.",
+      "html": "<h3 class=\"ds-section-label\">Missing keywords (7)</h3>",
+      "css": ".ds-section-label{margin:0;color:#64748b;font-family:ui-sans-serif,system-ui,sans-serif;font-size:14px;font-weight:600;line-height:1.5;letter-spacing:0.025em;text-transform:uppercase;}"
+    },
+    {
+      "name": "Score Ring",
+      "kind": "custom",
+      "description": "The product readout: 160px SVG ring, slate track, band-colored arc, centered score numeral.",
+      "html": "<div class=\"ds-score-ring\"><svg viewBox=\"0 0 160 160\" role=\"img\" aria-label=\"Match score 82 out of 100\"><circle cx=\"80\" cy=\"80\" r=\"68\" fill=\"none\" stroke-width=\"12\" class=\"ds-score-track\"></circle><circle cx=\"80\" cy=\"80\" r=\"68\" fill=\"none\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-dasharray=\"427.26\" stroke-dashoffset=\"76.9\" transform=\"rotate(-90 80 80)\" class=\"ds-score-value\"></circle></svg><div class=\"ds-score-number\" aria-hidden=\"true\"><span class=\"ds-score-digit\">82</span><span class=\"ds-score-label\">match</span></div></div>",
+      "css": ".ds-score-ring{position:relative;width:160px;height:160px;}.ds-score-ring svg{width:100%;height:100%;}.ds-score-track{stroke:#e2e8f0;}.ds-score-value{stroke:#10b981;}.ds-score-number{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;}.ds-score-digit{font-family:ui-sans-serif,system-ui,sans-serif;font-size:36px;font-weight:600;line-height:1.1;letter-spacing:-0.025em;color:#0f172a;font-variant-numeric:tabular-nums;}.ds-score-label{font-family:ui-sans-serif,system-ui,sans-serif;font-size:12px;font-weight:500;line-height:1.5;letter-spacing:0.025em;text-transform:uppercase;color:#64748b;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Calm Scorecard",
+    "overview": "resumeScan is a working tool, not a marketing surface. The system should feel like a precise scorecard laid on a clean desk: neutral slate surfaces, one green that means action or verification, and numbers that read at a glance. The mood is calm and factual. Nothing celebrates, nothing alarms unless the score itself is alarming.\n\nDensity is moderate. Panels hold generous inner padding, fields sit in a single readable column, and the results column repeats a steady rhythm of score, missing keywords, matched keywords, suggestions. Hierarchy comes from weight, color, and spacing rather than size or ornament. The only large element in the product is the score ring, and it earns that by being the answer.\n\nMotion is short and functional: a ring that draws once, color transitions on hover, a pulse while waiting. No decorative animation runs on idle surfaces. Explicitly avoided: gradients, glass, purple-to-blue AI styling, glow around the score, dashboard furniture, and celebration effects.",
+    "keyCharacteristics": [
+      "Flat surfaces separated by 1px slate borders.",
+      "One green accent reserved for action and verification.",
+      "System sans throughout, with weight and color carrying hierarchy.",
+      "Compact radii: 16px containers, 12px controls, full-round chips.",
+      "Score color is state, driven by bands, not brand."
+    ],
+    "rules": [
+      {
+        "name": "The One Green Rule",
+        "body": "Verification Green marks action and verification only: primary buttons, links, focus rings, check marks, and strong scores. It never fills a background for decoration, and no second brand hue is introduced.",
+        "section": "colors"
+      },
+      {
+        "name": "The Band Rule",
+        "body": "Score color is state, not brand: rose below 50, amber from 50 to 74, emerald from 75 up. A single view uses one band only, and that band governs the ring, the verdict text, and its supporting marks together.",
+        "section": "colors"
+      },
+      {
+        "name": "The Muted Chrome Rule",
+        "body": "Everything that is not action or score state stays slate. Rose and amber never appear outside an error, a warning, or a score band.",
+        "section": "colors"
+      },
+      {
+        "name": "The Quiet Scale Rule",
+        "body": "No display font, no oversized headings. The score numeral is the only type above 16px; every other hierarchy step comes from weight and color.",
+        "section": "typography"
+      },
+      {
+        "name": "The Label Case Rule",
+        "body": "Uppercase appears only on section labels inside the results panel, always at 0.75 to 0.875rem with wide tracking and Quiet Slate. No other text is uppercased.",
+        "section": "typography"
+      },
+      {
+        "name": "The Two-Column Rule",
+        "body": "Form left, results right from 1024px up. Below that the page stacks and results follow the form; never place results before the inputs on narrow screens.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat-By-Default Rule",
+        "body": "Surfaces are flat at rest and separated by borders. Shadow is reserved for the modal; adding a shadow to a card, input, or chip is a regression.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Two-Radius Rule",
+        "body": "Containers are 16px, controls 12px, chips are full. A role keeps its radius everywhere it appears; do not introduce a third radius for the same role.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do separate panels with 1px Hairline Slate borders on Page Slate; flat is the default.",
+      "Do keep Verification Green for actions, links, focus, checks, and scores of 75 or more.",
+      "Do drive the score ring, verdict text, and score-related marks from the same band color.",
+      "Do hold type at 14px body and 16px titles; reserve 36px for the score numeral.",
+      "Do use 16px radius for containers, 12px for controls, and full radius for chips.",
+      "Do meet WCAG 2.2 AA: labelled controls, visible focus, keyboard-operable dialog and chips, and contrast checked for every text-on-surface pair."
+    ],
+    "donts": [
+      "Don't add gradients, glass, glow, or purple-to-blue AI styling.",
+      "Don't use shadows on cards, inputs, or chips; only the modal lifts.",
+      "Don't introduce a second accent hue beyond the green action color and the rose, amber, and emerald state bands.",
+      "Don't use rose or amber decoratively; they always mean error, warning, or a low score.",
+      "Don't upsize headings to create hierarchy; use weight and color instead.",
+      "Don't wrap the score in celebration: no confetti, mascots, or celebratory animation."
+    ]
+  }
+}
